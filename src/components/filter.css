@@ -1,0 +1,22 @@
+.fontstyle {
+  font-size: 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.subfont {
+  font-size: 12px;
+  font-weight: 300;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.subfont_after {
+  font-size: 10px;
+  font-weight: 200;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+@media screen and (max-width: 960px) {
+  .subfont {
+    font-size: 10px;
+  }
+  .subfont_after {
+    font-size: 8px;
+  }
+}

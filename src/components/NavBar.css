@@ -1,0 +1,76 @@
+.navbar {
+  background-color: var(--primary-purple);
+  max-width: 1440px;
+  height: 70px;
+  padding-left: 120px;
+  padding-right: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+.menu-btn {
+  color: white;
+  margin-right: 0;
+  align-self: center;
+  display: none;
+}
+.menu-open {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  display: flex;
+  background-color: var(--primary-purple);
+  flex-direction: column;
+  text-align: center;
+  z-index: 10;
+  font-size: 20px;
+  transition: all 0.5s ease;
+  padding: 10px 0;
+}
+@media screen and (max-width: 960px) {
+  .navbar {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+.white_logo {
+  width: 227px;
+  height: 30px;
+  margin: 0;
+  background: url(../assets/white-logo.png) no-repeat center center/cover;
+}
+
+.group {
+  width: 256px;
+  height: 19px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-family: GT America Mono, sans-serif;
+  margin: 0;
+}
+.menubtn {
+  color: white;
+  text-decoration: none;
+  margin: 0;
+}
+.menubtn:hover {
+  color: antiquewhite;
+}
+@media screen and (max-width: 768px) {
+  .group {
+    display: none;
+  }
+  .navbar {
+    padding: 18px;
+  }
+  .white_logo {
+    width: 193px;
+    height: 26px;
+  }
+  .menu-btn {
+    display: inline-block;
+  }
+}

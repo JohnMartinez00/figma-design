@@ -1,0 +1,99 @@
+.shop {
+  padding-top: 47px;
+  background: rgba(255, 255, 255, 0.8);
+  height: 830px;
+  /* transition: all 0.3s ease; */
+}
+.bg {
+  position: absolute;
+  z-index: -2;
+  width: 1440px;
+  height: auto;
+  top: 0;
+  /* transition: all 0.3s ease; */
+}
+.avatar {
+  width: 591px;
+  height: 70px;
+  border-radius: 8px;
+  background-color: var(--primary-pink);
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+.profile {
+  width: 55px;
+  height: 55px;
+  margin-left: 20px;
+}
+.text {
+  font-size: 14px;
+  margin-left: 20px;
+  font-family: GT America Mono;
+}
+.title {
+  width: 589px;
+  height: 176px;
+  font-weight: bold;
+  font-size: 73px;
+  letter-spacing: -3px;
+  text-align: center;
+  margin-top: 23px;
+  margin-bottom: 35px;
+  font-family: GT America Mono;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.input {
+  width: 160px;
+  height: 116px;
+  border-radius: 15px;
+  border-width: 3px;
+  padding: 15px;
+  left: 0;
+  font-size: 60px;
+  transform: translateX(calc(50vw - 50%));
+  position: absolute;
+}
+.info {
+  width: 210px;
+  height: 98px;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 185px;
+  margin-bottom: 31px;
+}
+.btn_submit {
+  width: 210px;
+  height: 75px;
+  border-radius: 10px;
+  font-size: 50px;
+  font-weight: bold;
+  background-color: var(--primary-blue);
+  text-align: center;
+  color: white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@media screen and (max-width: 768px) {
+  .title {
+    width: 291px;
+    height: 86px;
+    margin-top: 34px;
+    font-size: 36px;;
+  }
+  .shop {
+    padding: 0;
+    height: 742px;
+  }
+  .avatar {
+    width: 100%;
+    border-radius: 0;
+  }
+  .bg{
+    height: 742px;
+    /* transition: all 0.3s ease; */
+  }
+}

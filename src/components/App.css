@@ -1,0 +1,15 @@
+:root {
+  --primary-purple: #9aa4ff;
+  --primary-text: #323332;
+  --primary-blue: #1f77fc;
+  --primary-pink: #d364a9;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+.container{
+  max-width: 1440px;
+}
