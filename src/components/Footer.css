@@ -1,10 +1,11 @@
 .footer {
-  height: 90px;
+  height: 112px;
   width: 100%;
   background-color: var(--primary-text);
 }
 @media screen and (max-width:768px) {
   .footer{
     height: 47px;
+    overflow: hidden;
   }
 }

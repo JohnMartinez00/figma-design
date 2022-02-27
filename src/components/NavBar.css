@@ -12,6 +12,7 @@
 .menu-btn {
   color: white;
   margin-right: 0;
+  font-size: 16px;
   align-self: center;
   display: none;
 }
@@ -34,7 +35,6 @@
     padding-right: 60px;
   }
 }
-
 .white_logo {
   width: 227px;
   height: 30px;
@@ -44,7 +44,7 @@
 
 .group {
   width: 256px;
-  height: 19px;
+  line-height: 19px;
   display: flex;
   justify-content: space-between;
   font-size: 16px;

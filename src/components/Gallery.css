@@ -32,6 +32,7 @@
   font-size: 24px;
   font-weight: bold;
   margin-left: 0;
+  overflow: hidden;
 }
 .subtitle2 {
   width: 105px;
@@ -40,6 +41,7 @@
   font-weight: bold;
   margin-left: 0;
   align-self: flex-start;
+  overflow: hidden;
 }
 .result {
   grid-area: "result";
@@ -65,6 +67,8 @@
   width: 303px;
   height: 34px;
   margin-left: 0;
+  border: 1px solid;
+  align-items: center;
 }
 .btn {
   width: 133px;
@@ -148,5 +152,6 @@
   }
   .search-box{
     margin-right: 12px;
+    /* max-width: 303px; */
   }
 }

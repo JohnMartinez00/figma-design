@@ -1,32 +1,30 @@
 .progress {
-  width: 100px;
-  height: 100%;
-  /* display: flex; */
+  /* width: 200px; */
   align-items: center;
+  margin: 0 auto;
+  display: flex;
+  /* background-color: antiquewhite; */
 }
 
-/* The slider itself */
 .slider {
   /* appearance: none; */
-  width: 100px; /* Full-width */
-  height: 8px; /* Specified height */
-  background: #fffbfb; /* Grey background */
+  width: 100px;
+  height: 16px;
+  background: #ffffff;
   outline: none;
-  color: rgb(204, 204, 204);
+  color: rgb(255, 255, 255);
   border-radius: 9999px;
 }
 
-/* Mouse-over effects */
 .slider:hover {
-  opacity: 1; /* Fully shown on mouse-over */
+  opacity: 1;
 }
 
-/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
 .slider::-webkit-slider-thumb {
-  /* appearance: none; */
+  appearance: none;
   width: 8px;
-  height: 8px; 
-  background: #ffffff; 
+  height: 8px;
+  background: #ffffff;
   border-radius: 9999px;
 }
 
@@ -41,6 +39,25 @@
   color: #ffffff;
   font-size: 1.5rem;
 }
-.player-btn{
-    display: flex;
+.player-btn {
+  display: flex;
+}
+.volume {
+  /* font-size: 40px; */
+  color: white;
+}
+.control {
+  color: white;
+  /* font-size: 2rem; */
+}
+.prog_1 {
+  width: 450px;
+}
+.text-hide{
+  display: inline;
+}
+@media (max-width:768px) {
+  .text-hide{
+    display: none;
+  }
 }

@@ -1,4 +1,3 @@
-
 .rectangle {
   background-color: rgba(154, 164, 255, 0.7);
   max-width: 1440px;
@@ -11,11 +10,6 @@
   top: -70px;
   height: 100%;
   position: absolute;
-}
-.flex {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 .play_logo {
   width: 271px;

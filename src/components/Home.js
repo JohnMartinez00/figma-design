@@ -6,17 +6,14 @@ const Home = () => {
     return (
         <div className="rectangle">
             <img src={background} className="background" alt="bg"></img>
-            <div className="flex">
+            <div className="flex justify-between items-center">
                 <div className="play_logo"></div>
                 <div className="group2">
                     <div className="woman1"></div>
                     <div className="woman2"></div>
                 </div>
             </div>
-
-            <Footer>
-            </Footer>
-
+            <Footer />
         </div>
     );
 };
