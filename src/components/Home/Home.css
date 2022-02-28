@@ -1,0 +1,82 @@
+.rectangle {
+  background-color: rgba(154, 164, 255, 0.7);
+  max-width: 1440px;
+  /* height: 900px; */
+  position: relative;
+  /* margin: 0 auto; */
+}
+.background {
+  width: 100%;
+  z-index: -1;
+  top: -70px;
+  /* height: 100%; */
+  position: absolute;
+}
+.play_logo {
+  width: 271px;
+  height: 287px;
+  background: url(../../assets/play-logo.png) no-repeat center center / cover;
+}
+.group2 {
+  width: 783px;
+  height: 684px;
+  display: flex;
+  margin-top: 55px;
+  margin-right: 50px;
+  position: relative;
+}
+.woman1 {
+  width: 564px;
+  height: 684px;
+  background: url(../../assets/woman1.png) no-repeat center center / cover;
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.woman2 {
+  width: 451px;
+  height: 657px;
+  background: url(../../assets/woman2.png) no-repeat center center / cover;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.playerlist{
+  width: 720px;
+  margin: 0;
+}
+@media screen and (max-width: 1280px) {
+  .group2 {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .flex {
+    display: block;
+    padding-top: 75px;
+  }
+  .group2 {
+    width: 100%;
+    margin: 28px 18px 0 18px;
+    height: 345px;
+  }
+  .play_logo {
+    width: 233px;
+    height: 247px;
+  }
+  .woman1 {
+    width: 249px;
+    height: 302px;
+  }
+  .woman2 {
+    max-width: 199px;
+    height: 290px;
+    right: 36px;
+  }
+  .background{
+    width: auto;
+    height: 812px;
+  }
+}

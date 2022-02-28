@@ -1,0 +1,63 @@
+.progress {
+  /* width: 200px; */
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  /* background-color: antiquewhite; */
+}
+
+.slider {
+  /* appearance: none; */
+  width: 100px;
+  height: 16px;
+  background: #ffffff;
+  outline: none;
+  color: rgb(255, 255, 255);
+  border-radius: 9999px;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 8px;
+  height: 8px;
+  background: #ffffff;
+  border-radius: 9999px;
+}
+
+/* .slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px; 
+  background: #000000; 
+  border-radius: 9999px;
+} */
+
+.tooltip {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.player-btn {
+  display: flex;
+}
+.volume {
+  /* font-size: 40px; */
+  color: white;
+}
+.control {
+  color: white;
+  /* font-size: 2rem; */
+}
+.prog_1 {
+  width: 450px;
+}
+.text-hide{
+  display: inline;
+}
+@media (max-width:768px) {
+  .text-hide{
+    display: none;
+  }
+}

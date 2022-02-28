@@ -1,0 +1,123 @@
+*{
+  overflow: hidden;
+}
+.shop {
+  padding-top: 47px;
+  background: rgba(255, 255, 255, 0.8);
+  height: 900px;
+}
+.bg {
+  position: absolute;
+  z-index: -2;
+  width: 1440px;
+  height: 900px;
+  top: 0;
+}
+p{
+  margin-bottom: 0;
+}
+.avatar {
+  width: 591px;
+  height: 70px;
+  border-radius: 8px;
+  background-color: var(--primary-pink);
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+.profile {
+  width: 55px;
+  height: 55px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.text {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: GT America Mono;
+}
+.title {
+  width: 589px;
+  height: 176px;
+  line-height: 88px;
+  font-weight: bold;
+  font-size: 73px;
+  letter-spacing: -3px;
+  text-align: center;
+  margin-top: 23px;
+  margin-bottom: 35px;
+  font-family: GT America Mono;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.input {
+  width: 160px;
+  height: 116px;
+  border-radius: 15px;
+  border-width: 3px;
+  padding: 15px;
+  left: 0;
+  font-size: 60px;
+  transform: translateX(calc(50vw - 50%));
+  position: absolute;
+}
+.info {
+  width: 240px;
+  height: 98px;
+  font-size: 18px;
+  align-items: center;
+  margin-top: 185px;
+  justify-content: space-between;
+  margin-bottom: 31px;
+  flex-direction: column;
+}
+.font {
+  font-size: 10px;
+}
+.btn_submit {
+  width: 210px;
+  height: 75px;
+  border-radius: 10px;
+  font-size: 50px;
+  font-weight: bold;
+  background-color: var(--primary-blue);
+  text-align: center;
+  color: white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.line_h {
+  /* line-height: 26px; */
+  width: 150px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.dis-flex {
+  display: flex;
+  margin-left: 0;
+}
+.bold {
+  font-weight: bold;
+  margin-left: 0;
+}
+@media screen and (max-width: 768px) {
+  .title {
+    width: 291px;
+    line-height: 43px;
+    height: 86px;
+    margin-top: 34px;
+    font-size: 36px;
+  }
+  .shop {
+    padding: 0;
+    height: 812px;
+  }
+  .avatar {
+    width: 100%;
+    border-radius: 0;
+  }
+  .bg {
+    height: 812px;
+  }
+}
